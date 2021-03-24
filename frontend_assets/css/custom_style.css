@@ -1,0 +1,123 @@
+.consultant-section .consultant-area-title h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.consultant-section .consultant-area-title h2::before {
+    content: '';
+    background-color: #d61a66;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 43px;
+    left: ;
+    display: block;
+}
+
+.consultant-section .label {
+    background-color: #d61a66;
+    color: white;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.consultant-section .label span {
+    display: inline-block;
+    background: black;
+    padding: 0px 19px;
+    border-radius: 7px 33px 0px 8px;
+}
+
+
+.consultant-section .consultant-card {
+    background-color: #dddfde;
+    width: 100%;
+    height: 280px;
+    box-shadow: 2px 2px 5px #7a807dfa;
+    border-radius: 9px;
+    position: relative;
+    margin: 10px 0;
+}
+
+
+.consultant-section .consultant-card .short-text {
+    background-color: #d61a66;
+    padding: 4px;
+    color: white;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+
+
+.consultant-details p {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: -6px 2px;
+    font-size: 0.8rem;
+}
+
+.consultant-details p:first-child {
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: 900;
+}
+
+.consultant-section .consultant-card img {
+    margin-top: 53px;
+    margin-left: 9px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 13px 0px;
+    width: 100px;
+}
+
+.consultant-section .btn-full {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #d61a5f;
+    text-align: center;
+    background: #d61a66;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all linear .2s;
+}
+
+.consultant-section .btn-full:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+
+}
+
+.consultant-section .consultant-card h3 {
+    font-size: 1.2rem;
+    padding: 9px;
+}
+
+.consultant-section .consultant-card h5 {
+    font-size: .8rem;
+    margin-left: 9px;
+    margin-top: -7px;
+}
+
+.consultant-section .btn-more-consultant {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #d61a66;
+    letter-spacing: 2px;
+    transition: all linear .3s;
+}
+
+.consultant-section .btn-more-consultant:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    border: 1px solid #d61a66;
+    color: #d61a66;
+}
